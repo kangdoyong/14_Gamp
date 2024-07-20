@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01_구조체">
+      <UniqueIdentifier>{9afb16a3-8fff-48a8-b418-7db21ce28aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_클래스">
+      <UniqueIdentifier>{e93a5550-e15b-4e33-98fe-76f631e06e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_클래스\02_클래스">
+      <UniqueIdentifier>{cd12c04f-c07c-4eb7-bef9-0f3ad8272fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_클래스\03_접근자설정자">
+      <UniqueIdentifier>{5a21892a-ff8b-426f-8b68-f1f6664a5b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_클래스\04_문제">
+      <UniqueIdentifier>{8ae514dc-f005-4d94-beeb-c237c6e79174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_생성자소멸자">
+      <UniqueIdentifier>{5b82c73d-79e7-433f-bcf7-f60428f020ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_생성자소멸자\01_생성자소멸자">
+      <UniqueIdentifier>{1ca7aac8-f0f3-44d7-811a-7715ef4e20d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_생성자소멸자\02_생성자소멸자">
+      <UniqueIdentifier>{4faaee9b-e406-419b-bad5-766bff387848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_생성자소멸자\03_복사생성자">
+      <UniqueIdentifier>{85160cc9-b1ab-4d76-b3f3-773776909d3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_구조체.cpp">
+      <Filter>소스 파일\01_구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="02_구조체.cpp">
+      <Filter>소스 파일\01_구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="01_클래스.cpp">
+      <Filter>소스 파일\02_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>소스 파일\02_클래스\02_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="02_클래스.cpp">
+      <Filter>소스 파일\02_클래스\02_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>소스 파일\02_클래스\03_접근자설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="03_클래스.cpp">
+      <Filter>소스 파일\02_클래스\03_접근자설정자</Filter>
+    </ClCompile>
+    <ClCompile Include="04_클래스.cpp">
+      <Filter>소스 파일\02_클래스\04_문제</Filter>
+    </ClCompile>
+    <ClCompile Include="AirConditioner.cpp">
+      <Filter>소스 파일\02_클래스\04_문제</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample.cpp">
+      <Filter>소스 파일\03_생성자소멸자\01_생성자소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="01_생성자소멸자.cpp">
+      <Filter>소스 파일\03_생성자소멸자\01_생성자소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample2.cpp">
+      <Filter>소스 파일\03_생성자소멸자\02_생성자소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="02_생성자소멸자.cpp">
+      <Filter>소스 파일\03_생성자소멸자\02_생성자소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample3.cpp">
+      <Filter>소스 파일\03_생성자소멸자\03_복사생성자</Filter>
+    </ClCompile>
+    <ClCompile Include="03_복사생성자.cpp">
+      <Filter>소스 파일\03_생성자소멸자\03_복사생성자</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Human.h">
+      <Filter>소스 파일\02_클래스\02_클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>소스 파일\02_클래스\03_접근자설정자</Filter>
+    </ClInclude>
+    <ClInclude Include="AirConditioner.h">
+      <Filter>소스 파일\02_클래스\04_문제</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.h">
+      <Filter>소스 파일\03_생성자소멸자\01_생성자소멸자</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample2.h">
+      <Filter>소스 파일\03_생성자소멸자\02_생성자소멸자</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample3.h">
+      <Filter>소스 파일\03_생성자소멸자\03_복사생성자</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
